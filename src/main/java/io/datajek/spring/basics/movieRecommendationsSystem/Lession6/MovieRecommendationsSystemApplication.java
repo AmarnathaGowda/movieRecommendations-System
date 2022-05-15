@@ -1,4 +1,4 @@
-package io.datajek.spring.basics.movieRecommendationsSystem.Lesson5;
+package io.datajek.spring.basics.movieRecommendationsSystem.Lession6;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package io.datajek.spring.basics.movieRecommendationsSystem.Lesson5;
+package io.datajek.spring.basics.movieRecommendationsSystem.Lession5;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

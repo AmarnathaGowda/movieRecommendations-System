@@ -1,8 +1,12 @@
-package io.datajek.spring.basics.movieRecommendationsSystem.Lesson5;
+package io.datajek.spring.basics.movieRecommendationsSystem.Lession6;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
+@Qualifier("CBF")
+@Primary
 public class ContentBasedFilter implements Filter {
 
     public String[] getRecommendations(String movie) {
